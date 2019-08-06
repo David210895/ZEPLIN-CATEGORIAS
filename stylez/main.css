@@ -1,0 +1,108 @@
+*{
+    box-sizing:border-box;
+}
+
+/*GLOBALES*/
+html{
+    font-size:62.50%;
+}
+h1,
+h2,
+h3,
+strong,
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+strong{
+    font-size: 4.2rem; 
+    color:white; 
+    margin-right: 8.8rem;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+    font-size:1.4rem;
+}
+
+i{
+    color:white;
+    height: 1.8rem;
+    width: 1.8rem;
+}
+
+
+/*LAYOUT*/
+header{
+    width:100%;
+}
+
+.container {
+    max-width: 960px;
+    width:100%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding-left: 3.1%;
+    padding-right: 3%;
+}
+
+.principal{
+    width: 100%;
+    height: 10rem;
+    background:#62346f; 
+    padding-top:22px;
+    padding-bottom: 28px;
+}
+
+.left{
+    display:flex;
+    align-items:center;
+}
+
+.left ul{
+    width:34%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.left li{
+    margin-right: 3.5rem;
+}
+
+.right ul{
+    display: flex;
+}
+
+.right li{
+    margin-left:2.5rem;
+}
+
+.title{
+    width: 100%;
+    height: 4.1rem;
+    background: #3a1045;
+    display:flex;
+    justify-content:space-between;
+}
+.title li{
+    color:white;    
+}
+
+/*MAIN*/
+main{
+    margin-top:22px;
+}
+
+.politica{
+    width:66.67%;
+}
+
+main .descripcion{
+    display:flex;
+    justify-content: space-between;
+
+}
