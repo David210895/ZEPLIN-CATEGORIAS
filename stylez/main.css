@@ -146,3 +146,13 @@ h1{
 .otros h2{
     font-size:32px;
 }
+.od-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+aside img{
+    margin-top: 40px;
+}
